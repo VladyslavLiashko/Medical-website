@@ -1,0 +1,60 @@
+body {
+    background-color: #32495E;
+}
+
+.wrapper {
+    max-width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #F9F9F9
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.service-block{
+    width: 20%;
+}
+.service-block p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F9F9F9;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+button {
+    border: 1px solid #F9F9F9;
+    border-radius: 25px;
+    background-color: #32495E;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #F9F9F9;
+    width: 15%;
+    height: 48px;
+}
+/* .service-block:hover{
+    background-color: aqua;
+    transition: 2s;
+} */

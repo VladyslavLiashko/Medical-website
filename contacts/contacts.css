@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(231, 227, 227);
+}
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: hsl(209, 31%, 28%);
+    padding-left: 5%;
+    padding-top: 2%;
+}
+iframe{
+    margin-top: 4%;
+}
+main {
+    max-width: 90%;
+    margin: auto;
+}
+
+.adress {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #32495E;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #32495E;
+}

@@ -1,0 +1,46 @@
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #F9F9F9;
+    background-color: #32495E;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+main {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.doctor-block {
+    width: 21%;
+    margin-top: 3%;
+}
+
+.doctor-name {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #32495E;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #32495E;
+}
+/* .doctor-block:hover{
+    background-color: aqua;
+    transition: 2s;
+} */
