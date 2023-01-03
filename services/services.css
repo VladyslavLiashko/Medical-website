@@ -54,7 +54,8 @@ button {
     width: 15%;
     height: 48px;
 }
-/* .service-block:hover{
-    background-color: aqua;
-    transition: 2s;
-} */
+button:hover{
+    color: #32495E;
+    background-color:#F9F9F9 ;
+    transition: 1s;
+}

@@ -40,7 +40,8 @@ p {
     font-size: 14px;
     color: #32495E;
 }
-/* .doctor-block:hover{
-    background-color: aqua;
+.doctor-block:hover{
+    background-color: #6b99c5;
+    border-radius: 5px;
     transition: 2s;
-} */
+}

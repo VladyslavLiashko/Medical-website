@@ -311,3 +311,70 @@ footer h1 {
     color: #E95258;
     transition: 1s;
 }
+
+/* .support-chat */
+
+.chat-menu{
+    position: fixed;
+    right: 3%;
+    bottom: 15%;
+    width: 20%;
+    height: 70%;
+    background-color: #32495E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: 1px solid black;
+    display: none;
+}
+.chat-main{
+    height: 76%;
+}
+.message{
+    background-color: #E95258;
+    border-radius: 30px;
+    text-align: center;
+    width: 70%;
+    padding: 3%;
+}
+.message-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.yourMessage{
+    padding: 3%;
+    background-color: rgb(8, 184, 8);
+    border-radius: 30px;
+    width: 70%;
+    text-align: center;
+}
+.chat-header{
+    display: flex;
+    justify-content: space-between;
+}
+.chat-header img{
+    border-radius: 50px;
+}
+.chat-header p{
+    margin: 0;
+    padding: 5%;
+    color: #fff;
+}
+.chat-header button{
+    border: none;
+    width: 10%;
+    height: 100%;
+    /* margin-top: 0; */
+    margin-right: 3%;
+}
+input{
+    height: 10%;
+    border-radius: 30px;
+    width: 99%;
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    border: none;
+    margin-bottom: 0;
+}
